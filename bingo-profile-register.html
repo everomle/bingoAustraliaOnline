@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Bingo Australia.com</title>
+<link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/nice-select.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bingo-australia.css">
+</head>
+
+<body>
+
+<!-- start preloader -->
+<div class="preloader" id="preloader"></div>
+<!-- end preloader --> 
+
+<a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a> 
+
+<!-- header-section start -->
+<header class="header-section" >
+  <div class="overlay">
+    <div class="container">
+      <div class="row d-flex header-area">
+        <div class="logo-section flex-grow-1 d-flex align-items-center"> <a class="site-logo site-title" href="index.html"><img src="images/logo.png" alt="site-logo"></a> </div>
+        <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"> <i class="fas fa-bars"></i> </button>
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main-menu ml-auto">
+              <li class="menu_has_children"><a href="#0" class="active">Home</a>
+                <ul class="sub-menu">
+                  <li><a href="index.html">Home </a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children"><a href="#0">Games</a>
+                <ul class="sub-menu">
+                  <li><a href="bingo.html">bingo</a></li>
+                  <li><a href="casino-games.html">Casino Games</a></li>
+                  <li><a href="play-for-fun.html">Play For Fun</a></li>
+                  <li><a href="recent-winners.html">Recent Winners</a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children"><a href="#0">Promotions</a>
+                <ul class="sub-menu">
+                  <li><a href="latest-promos.html">Latest Promos</a></li>
+                  <li><a href="free-bonus-offers.html">Free Bonus Offers</a></li>
+                  <li><a href="community.html">Community</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children"><a href="#0">Help</a>
+                <ul class="sub-menu">
+                  <li><a href="winners.html">FAQ's </a></li>
+                  <li><a href="about-us.html">Banking</a></li>
+                  <li><a href="faq.html">Contact us</a></li>
+                  <li><a href="winners.html">Responsible Gaming</a></li>
+                  <li><a href="winners.html">Privacy Policy</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="right-area header-action d-flex align-items-center">
+              <button type="button" class="cmn-btn-alt cmn-btn" data-toggle="modal" data-target="#signUpModalLong">Free Account </button>
+              <div class="modal register fade" id="signUpModalLong" tabindex="-1" role="dialog"  aria-labelledby="signUpModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="signUpModalLongTitle"> <img src="images/logo.png" alt="image"> </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <img src="images/cross-icon-1.png" alt="image"> </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5 class="welcome">Welcome back</h5>
+                      <p>Not a member? <a href="javascript:void(0)">REGISTER</a></p>
+                      <div class="form-area">
+                        <form action="#">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" placeholder="Registered Email Address." type="email">
+                          </div>
+                          <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" placeholder="Password" type="password">
+                          </div>
+                          <div class="form-group d-flex justify-content-end">
+                            <label><a href="javascript:void(0)">Not a member?</a></label>
+                          </div> 
+                          <div class="form-group">
+                            <button type="submit" class="cmn-btn cmn-btn-alt"> Sign In</button>
+                          </div>
+                        </form>
+                        <div class="reg-with">
+                          <p>Register in directly with</p>
+                          <div class="social-area d-flex justify-content-center"> <a href="javascript:void(0)"><img src="images/twitter.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/facebook.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/linkedin.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/google.png" alt="image"></a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Login-->
+              <button type="button" class="cmn-btn" data-toggle="modal" data-target="#signInModalLong">Login</button>
+              <div class="modal register fade" id="signInModalLong" tabindex="-1" role="dialog" aria-labelledby="signInModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="signInModalLongTitle"> <img src="images/logo.png" alt="image"> </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <img src="images/cross-icon-1.png" alt="image"> </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Get started in a minute!</h5>
+                      <p>Already have a account? <a href="javascript:void(0)">Login</a></p>
+                      <div class="form-area">
+                        <form action="#">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" placeholder="Registered Email Address." type="email">
+                          </div>
+                          <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" placeholder="Password" type="password">
+                          </div>
+                          <div class="form-group d-flex">
+                            <div class="checkbox_wrapper">
+                              <input type="checkbox" />
+                              <label></label>
+                            </div>
+                            <span class="check_span">I agree with <span>user
+                            agreement</span>, and confirm that I am at least 18
+                            years old!</span> </div>
+                          <div class="form-group">
+                            <button type="submit" class="cmn-btn cmn-btn-alt"> Register
+                            NOw!</button>
+                          </div>
+                        </form>
+                        <div class="reg-with">
+                          <p>Register in directly with</p>
+                          <div class="social-area d-flex justify-content-center"> <a href="javascript:void(0)"><img src="images/twitter.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/facebook.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/linkedin.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/google.png" alt="image"></a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Live Help-->
+              <button type="button" class="cmn-btn btn-help" data-toggle="modal" data-target="#liveHelpModalLong"> <img class="iconHelph" src="images/chat-heart-fill.svg" width="30" height="auto" alt="Live Help"> </button>
+              <div class="modal register fade" id="liveHelpModalLong" tabindex="-1" role="dialog"
+                                    aria-labelledby="liveHelpModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="liveHelpModalLongTitle"> <img src="images/logo.png" alt="image"> </h5>
+                      <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close"> <img src="images/cross-icon-1.png" alt="image"> </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Get started in a minute!</h5>
+                      <p>Already have a account? <a href="javascript:void(0)">Login</a></p>
+                      <div class="form-area">
+                        <form action="#">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" placeholder="Registered Email Address." type="email">
+                          </div>
+                          <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" placeholder="Password" type="password">
+                          </div>
+                          <div class="form-group d-flex">
+                            <div class="checkbox_wrapper">
+                              <input type="checkbox" />
+                              <label></label>
+                            </div>
+                            <span class="check_span">I agree with <span>user
+                            agreement</span>, and confirm that I am at least 18
+                            years old!</span> </div>
+                          <div class="form-group">
+                            <button type="submit" class="cmn-btn cmn-btn-alt"> Register NOw!</button>
+                          </div>
+                        </form>
+                        <div class="reg-with">
+                          <p>Register in directly with</p>
+                          <div class="social-area d-flex justify-content-center"> <a href="javascript:void(0)"><img src="images/twitter.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/facebook.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/linkedin.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/google.png" alt="image"></a> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!----> 
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header-section end --> 
+
+<!-- inner banner start -->
+<section class="banner-section inner-banner games">
+  <div class="banner-content d-flex align-items-center">
+    <div class="container"> <img src="images/games2-banner-right.png" class="banner-side" alt="image">
+      <div class="row d-flex justify-content-start">
+        <div class="col-lg-12">
+          <div class="text-area">
+            <h1>Sign Up</h1>
+            <div class="breadcrumb-area">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb d-flex">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Sign up</li>
+                </ol>
+              </nav>
+            </div>
+            <!-----> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- banner-section end --> 
+
+<!-- Profile Main REPORT Star-->
+<section class="available-game-section index-2 main-3 games-bingo">
+  <div class="overlay">
+    <div class="menu-area">
+      <div class="container">
+        <div class="menu-bar">
+          <div class="row justify-content-between align-item">
+            <div class="col-lg-12">
+              <div class="main-box wallet-box">
+                <div class="wallet-tab-menu">
+                  <div>
+                    <ul class="nav justify-content-center collapse" id="pills-tabb" role="tablist">
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt2-tab" data-toggle="pill" href="#pills-wt2" role="tab" aria-controls="pills-wt2" aria-selected="false">Withdraw</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt3-tab" data-toggle="pill" href="#pills-wt3" role="tab" aria-controls="pills-wt3" aria-selected="false">Game Activity</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt4-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Transactions Report</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt5-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Bonus Report</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt6-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Reconcile Report</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt7-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Deposit History</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt8-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Withdraw History</a> </li>
+                      <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt9-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Pre-Purchased Games</a> </li>
+                      <ul class="nav nav-tabs justify-content-center">
+                        <li class="nav-item help-nav txt-profile-page">HELP <img id="arrow-icon" src="images/double-right.png" alt="Double Right Arrow Icon"></li>
+                        <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >FAQs</a></li>
+                        <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >View Tickets</a></li>
+                        <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >Open a Ticket</a></li>
+                        <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >Bank Options</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---Profile Main REPORT  End--> 
+
+<!-- Profile Info Star -->
+<section class="user-main-dashboard">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <main>
+          <div class="main-box wallet-box">
+            <div class="wallet-tab-content" id="pills-tabContent">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="pills-wt1" role="tabpanel" aria-labelledby="pills-wt1-tab">
+                  <div class="dipo-box">
+                    <div class="row mt-20 mb-20">
+                      <div class="col-lg-12">
+                        <h4 class="title-profile">Sign up</h4>
+                      </div>
+                    </div>
+                    <div class="row mt-20 mb-20">
+                      <div class="col-lg-12">
+                        <p> <em>PLEASE NOTE:</em> Trial Comp <strong> CAN NOT BE CASHED OUT. </strong> This is only to allow you to try our games BEFORE depositing. </p>
+                        <p> MULTIPLE Accounts will forfeit any winnings and cancel any payout request </p>
+                      </div>
+                    </div>
+                    <div class="row mt-20 mb-20">
+                      <div class="col-lg-6">
+                        <div class="current-balance">
+                          <h4 class="title-profile">Acount Information</h4>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="promoCode" name="promoCode" placeholder="Promo Code">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="userId" name="userId" placeholder="User ID" title="Your username must be between 6 and 16 characters with no spaces or special characters">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="email" class="form-control" id="email" name="email" placeholder="Email" title="Please make sure the email you have provided is correct">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="password" class="form-control" id="password" name="password" placeholder="Password" title="Your password needs to be between 6 and 16 characters long and for security it MUST contain at least 1 letter and 1 number.">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="current-balance">
+                          <h4 class="title-profile">Address</h4>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="address" name="address" placeholder="Type your address here">
+                              </input>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="streetaddress1" name="streetaddress1" placeholder="Street Address 1">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                              </div>
+                              <input type="text" class="form-control" id="streetaddress2" name="streetaddress2" placeholder="Street Address 2">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="city" name="city" placeholder="City" >
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="state" name="state" placeholder="State">
+                                 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="number" class="form-control" id="zipcode" name="zipcode" placeholder="Zip Code">
+                                 
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="country" name="country" placeholder="Country">
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-20 mb-20">
+                      <div class="col-lg-12">
+                        <div class="current-balance">
+                          <h4 class="title-profile">Personal Details</h4>
+                          <p>Your personal details are required to help us identify you for payment purposes</p>
+                          <hr style="background: #fff"/>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="tel" class="form-control" id="homePhoneNumber" name="homePhoneNumber" placeholder="Home Phone Number">
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="tel" class="form-control" id="mobilePhoneNumber" name="mobilePhoneNumber" placeholder="Mobile Phone Number">
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')" class="form-control" id="birthDate" name="birthDate" placeholder="Birth Date">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <label class="title ml-2">Gender</label>
+                                  <input type="radio" class="form-control" id="gender-male" name="gender" value="male" placeholder="Male" style="font-size: 0.5rem">
+                                  <label class="radio-label">Male</label>
+                                  <input type="radio" class="form-control" id="gender-female" name="gender" value="female" placeholder="Female"  style="font-size: 0.5rem">
+                                  <label class="radio-label">Female</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="referrerPlayer" name="referrerPlayer" placeholder="Referring Player">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <p class="ml-2"> Did a friend tell you about us? Enter his/her Account ID here </p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col ml-20">
+                              <input type="checkbox" class="m1-2" style="opacity: 1"  id="emailMe" name="emailMe" checked="checked">
+                              <p class="ml-2"> Please email me AmigoBingo promotions. </p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col ml-20">
+                              <input type="checkbox" class="m1-2" style="opacity: 1"  id="agreeTerms" name="agreeTerms">
+                              <p class="ml-2"> I agree to the <a href="#">Terms & Conditions</a> </p>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center ">
+                            <div class="col-lg-4 col-12"> <a href="#" class="d-flex justify-content-center cmn-btn mt-20"> SIGN UP & GET $50 FREE! </a> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-wt2" role="tabpanel" aria-labelledby="pills-wt2-tab">
+                  <div class="dipo-box">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="current-balance">
+                          <p>Current Balance</p>
+                          <h4> 0.00051 <span>BTC</span> </h4>
+                          <span class="t-sm"> 1BTC = 39746.90 USD </span> </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="dipo_btc">
+                          <div class="header-area">
+                            <h4>Withdraw BITCOIN</h4>
+                            <p> You may switch to other currencies in the top right corner. </p>
+                          </div>
+                          <div class="form-area">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <form action="#">
+                                  <div class="form-group">
+                                    <label for="">Amount</label>
+                                    <input type="text" class="input-field" placeholder="Amount">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="">Payment Address</label>
+                                    <input type="text" class="input-field" placeholder="Payment Address">
+                                  </div>
+                                  <button type="submit" class="mybtn2">Submit</button>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="notice-area">
+                            <p><span>Transaction fee:</span> Your withdrawal will also have 0.0006 BTC  subtracted to cover the transaction fee.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-wt3" role="tabpanel" aria-labelledby="pills-wt3-tab">
+                  <div class="dipo-box">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="current-balance">
+                          <p>Current Balance</p>
+                          <h4> 0.00051 <span>BTC</span> </h4>
+                          <span class="t-sm"> 1BTC = 39746.90 USD </span> </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="dipo_btc">
+                          <div class="header-area">
+                            <h4>Buy cryptocurrency directly to your Jugaro account</h4>
+                            <p> Once payment is completed, your cryptocurrency will be available in your Jugaro
+                              a																unt within minutes </p>
+                          </div>
+                          <div class="crypto-info">
+                            <h5>1. Choose the crypto you wish to buy, enter the amount, and choose your
+                              favorite payment method.</h5>
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="">Buy</label>
+                                  <select name="" id="" class="input-field" placeholder="Amount">
+                                    <option value="">BTC</option>
+                                    <option value="">CTO</option>
+                                    <option value="">YOK</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="">Payment Methods</label>
+                                  <select name="" id="" class="input-field" placeholder="Amount">
+                                    <option value="">VISA</option>
+                                    <option value="">MASTER</option>
+                                    <option value="">DABIT</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="form-group-2">
+                                  <label for="">Amount</label>
+                                  <div class="select-payment-area">
+                                    <input type="text" value="434">
+                                    <select name="" id="">
+                                      <option value="">BTC</option>
+                                      <option value="">CTO</option>
+                                      <option value="">YOK</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h5 class="mt-5">2. Choose the best offer from our payment partners, and complete
+                              your purchase.</h5>
+                            <div class="table-responsive">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Channels</th>
+                                    <th>Arrival Time</th>
+                                    <th>You will get</th>
+                                    <th>Rate ( Fee Included)</th>
+                                    <th>Trade</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/chanel-logo.png" alt=""></td>
+                                    <td>5-15 mins</td>
+                                    <td>0.003091 BTC</td>
+                                    <td>39254.59 USD</td>
+                                    <td><a href="#" class="mybtn2">BUY</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-wt4" role="tabpanel" aria-labelledby="pills-wt4-tab">
+                  <div class="trns-box">
+                    <div class="trns-table-filter">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="single-filter">
+                            <label for="">Month</label>
+                            <input type="month" class="input-field" name="" id="">
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="single-filter">
+                            <label for="">Type</label>
+                            <select name="" id="" class="input-field">
+                              <option value="">All</option>
+                              <option value="">Type 1</option>
+                              <option value="">Type 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="single-filter">
+                            <label for="">Currency</label>
+                            <select name="" id="" class="input-field">
+                              <option value="">BTC</option>
+                              <option value="">BDT</option>
+                              <option value="">USD</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="filter-wrapper"> <a href="#" class="mybtn2">Filter</a> </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Date/Time</th>
+                            <th>Type</th>
+                            <th>Currency</th>
+                            <th>Amount</th>
+                            <th>Balance before</th>
+                            <th>Balance after</th>
+                            <th>Game</th>
+                            <th>Game ID</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>2021-01-07 16:33:53</td>
+                            <td>Deposit</td>
+                            <td>BTC</td>
+                            <td>0.000005210</td>
+                            <td>0.000000000</td>
+                            <td>0.000005210</td>
+                            <td>--</td>
+                            <td>--</td>
+                          </tr>
+                          <tr>
+                            <td>2021-01-07 16:33:53</td>
+                            <td>Deposit</td>
+                            <td>BTC</td>
+                            <td>0.000005210</td>
+                            <td>0.000000000</td>
+                            <td>0.000005210</td>
+                            <td>--</td>
+                            <td>--</td>
+                          </tr>
+                          <tr>
+                            <td>2021-01-07 16:33:53</td>
+                            <td>Deposit</td>
+                            <td>BTC</td>
+                            <td>0.000005210</td>
+                            <td>0.000000000</td>
+                            <td>0.000005210</td>
+                            <td>--</td>
+                            <td>--</td>
+                          </tr>
+                          <tr>
+                            <td>2021-01-07 16:33:53</td>
+                            <td>Deposit</td>
+                            <td>BTC</td>
+                            <td>0.000005210</td>
+                            <td>0.000000000</td>
+                            <td>0.000005210</td>
+                            <td>--</td>
+                            <td>--</td>
+                          </tr>
+                          <tr>
+                            <td>2021-01-07 16:33:53</td>
+                            <td>Deposit</td>
+                            <td>BTC</td>
+                            <td>0.000005210</td>
+                            <td>0.000000000</td>
+                            <td>0.000005210</td>
+                            <td>--</td>
+                            <td>--</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Profile Info End --> 
+
+<!-- Footer Section start -->
+<footer id="footer-section">
+  <div class="overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-top pt-120 pb-120">
+            <div class="side-contant">
+              <div class="left"> <img class="bg" src="images/footer-left-bg.png" alt="image"> <img class="bg circle" src="images/footer-left-circle.png" alt="image"> <img class="top" src="images/footer-left-top.png" alt="image"> </div>
+              <div class="right"> <img src="images/footer-right.png" alt="image"> </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-6 col-sm-10">
+                <div class="section-header text-center">
+                  <h4 class="title">Want gaming &amp; esports news straight to your inbox?</h4>
+                  <p>To Get Exclusive Benefits</p>
+                </div>
+                <form action="#">
+                  <div class="subscribe">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button class="btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-area pt-120">
+        <div class="row d-flex header-area">
+          <div class="col-lg-8 col-md-8 d-flex justify-content-md-between justify-content-center align-items-center">
+            <div class="logo-section"> <a class="site-logo site-title" href="index.html"><img src="images/logo.png" alt="site-logo"></a> </div>
+            <ul class="navbar-nav main-menu d-flex align-items-center">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="index.html">Games</a></li>
+              <li><a href="index.html">Promotions</a></li>
+              <li><a href="index.html">Help</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
+            <div class="social-area d-flex"> <a href="javascript:void(0)"><img src="images/twitter.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/facebook.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/linkedin.png" alt="image"></a> <a href="javascript:void(0)"><img src="images/google.png" alt="image"></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="main-content">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-start align-items-center justify-cen order-pro">
+            <div class="left-area">
+              <p>© 2022 BingoAustralia. All rights Reserved | You must be 18 years or older to play. <a href="https://www.bingoaustralia.com/">www.BingoAustralia.com</a>. Since 2002. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer-section end --> 
+
+<script src="js/jquery-3.5.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/slick.js"></script> 
+<script src="js/jquery.nice-select.min.js"></script> 
+<script src="js/fontawesome.js"></script> 
+<script src="js/countdown.jquery.js"></script> 
+<script src="js/jquery.counterup.min.js"></script> 
+<script src="js/jquery.waypoints.min.js"></script> 
+<script src="js/wow.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

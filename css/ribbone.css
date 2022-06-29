@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+.slick-track:after,
+.slick-track:before {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+
+
+
+
+/*! #######################################################################
+
+	MeanMenu 2.0.7
+	--------
+
+	To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+
+####################################################################### */
+
+
+
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+.about-image2 {
+  bottom: -35px;
+  left: 0;
+  position: absolute;
+}
+.about-image2 img {
+  border-radius: 20px;
+}
+.about-image3 {
+  bottom: -45px;
+  position: absolute;
+  right: -60px;
+}
+.about-content.s-about-content {
+  margin-left: auto;
+  max-width: 466px;
+}
+.s-about-content p b {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.about-title > span {
+  background: #ffc010;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-title h2 {
+  font-size: 60px !important;
+  margin-bottom: 0 !important;
+}
+.about-title h5 {
+  color: #ffc010;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.about-title .title-strong {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.about-title .title-strong span {
+  background: #ffc010;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 12px;
+}
+.about-title p span {
+  background: #ffc010;
+  display: inline-block;
+  height: 2px;
+  margin-right: 20px;
+  position: relative;
+  top: -5px;
+  width: 40px;
+}
+.about-title p {
+  margin-bottom: 0;
+}
+.about-content p {
+  margin-bottom: 45px;
+}
+.about-content li {
+  display: flex;
+  margin-bottom: 10px;
+}
+.about-title h2 span {
+  color: #ffc010;
+}
+.about-content li .icon i {
+  background: #fff 0 0 no-repeat padding-box;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  color: #ffc010;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 20px;
+  text-align: center;
+  width: 60px;
+}
+.about-content .exprince {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2.5px 4.33px 15px 0 rgba(0, 0, 0, 0.15);
+  padding: 30px 0;
+  text-align: center;
+}
+.about-content .exprince h5 {
+  color: #0595b8;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.about-content .exprince p {
+  margin-bottom: 0;
+}
+.ab-ul {
+  margin-top: 30px;
+}
+.ab-ul li {
+  float: left;
+  width: 50%;
+}
+.ab-ul li .icon i {
+  background: #fff 0 0 no-repeat padding-box;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  color: #ffc010;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  width: 40px;
+}
+.sr-ul {
+  margin-top: 30px;
+}
+.sr-ul li {
+  background-color: #fff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.06);
+  float: left;
+  margin: 0 20px 30px 0;
+  padding: 15px 20px;
+  width: 46.2%;
+}
+.sr-ul li .icon i {
+  background: inherit;
+  border: inherit;
+  border-radius: inherit;
+  color: #4cc3c1;
+  font-size: 30px;
+  height: inherit;
+  line-height: inherit;
+  width: inherit;
+}
+.sr-ul li .text {
+  color: #181e23;
+  font-size: 14px;
+  font-weight: 700;
+}
+.sr-tw-ul {
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+.sr-tw-ul h4 {
+  font-size: 25px;
+}
+.sr-tw-ul li {
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+.sr-tw-ul li:hover {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAACqBAMAAABCENnMAAAAJ1BMVEX///////////8AAADw9v/1+f/w9v/////w9v/y9//7/f/1+f/3+/8V95meAAAAB3RSTlPxrScA8SWttZw8RAAAAg5JREFUeNrs2DtOw0AUheGBPbEHelgCBSVUZwseQg9O6CNlA0g4fSQriyJ2kQTb84jFKOdI9+/oPo3uHTNxd09VqRYo182De6yK9YaC3brnqlg7FOzV3VendIYFeHFVsT5QtHJyv8Z5QvLBfgrJB0euI3/H33TkwytRRj46chn56MhV5EsME5FP3OUi8m+M0pBPraeEfHJWJOSTs6IgX2IqAXlgyPnli8CQ08uDcHZ5GE4uj8C55V8ROLX8B5GI5YlJoZX71IGTyjPcjHLftEh3bbmvz/o8/NnsN5hdeXndbPebQ2AqLfftGow5qq/LRXKqr8s/ynegzRG8y2bKCd5lM+UE77KZcp5/oS6VS25nL9cc8pjcc88K4BQvxKh8Afac5np2csWrPCZnX89OLnkj9nLN9ezkmuvZyUVnBXCS90ov1/vsh+ReYsg7ueR29nKZt35C3kImJznjvVzn4RmWbyHVUb6SOvCTfCW0mkd5XTekvzMn5FDN5MlMbvL8TG7y/Exu8vxMbvL8TG7y/Exu8vxM/tvuHNswCAMAEHTSpE1Hi8QGTAaV12eF75CluwnOvDM378zNO3Pzzty8MzfvzM07c/PO3LwzN+/MzTtz887cvDM378zNO3Pzzty8MzfvzM07c/PO3LwzN+/MzTtz887cvDM378zNXzR+c03X2Oaa7rHPNX3H+Z8r+hwP/dcDGzXXH3UAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 0 1px 59px 0 rgba(0, 0, 0, 0.11);
+}
+.sr-tw-ul li .icon {
+  margin-right: 15px;
+  width: 140px;
+}
+.sr-tw-ul li .icon,
+.sr-tw-ul li .icon-right {
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+}
+.sr-tw-ul li .icon-right {
+  margin-left: 15px;
+  width: 130px;
+}
