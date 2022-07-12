@@ -258,7 +258,7 @@
     <!-- header-section end -->
 
     <!-- inner banner start -->
-    <section class="banner-section inner-banner games">
+    <section class="banner-section inner-banner games mobile-hide-banner">
         <div class="banner-content d-flex align-items-center">
             <div class="container">
                 <img src="images/games2-banner-right.png" class="banner-side" alt="image">
@@ -367,68 +367,78 @@
     <!-- Profile Main In end --> 
 	   
     <!-- Profile Main Reports - Wallet-box tabs Star-->
-    <section class="available-game-section index-2 main-3 games-bingo">
-         <div class="overlay">
-            <div class="menu-area">
-               <div class="container">
-                  <div class="menu-bar">
-                     <div class="row justify-content-between align-item">
-                        <div class="col-lg-12">
-                           <div class="main-box wallet-box">
-                              <div class="wallet-tab-menu">
-                                 <div>
-                                    <ul class="nav justify-content-center collapse" id="pills-tabb" role="tablist">
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt2-tab" data-toggle="pill" href="#pills-wt2" role="tab" aria-controls="pills-wt2" aria-selected="false">Withdraw</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt3-tab" data-toggle="pill" href="#pills-wt3" role="tab" aria-controls="pills-wt3" aria-selected="false">Game Activity</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt4-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Transactions Report</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt5-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Bonus Report</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt6-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Reconcile Report</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt7-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Deposit History</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt8-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Withdraw History</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" id="pills-wt9-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Pre-Purchased Games</a> </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-						<div class="col-lg-12">
-                           <div class="main-box wallet-box">
-                              <div class="wallet-tab-menu">
-                                 <div>
-                                    <ul class="nav justify-content-center collapse" id="help-tabb" role="tablist">
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile"  href="/faqs" >FAQs</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" href="/view-tickets">Game View Tickets</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile" ref="/open-ticket">Open a Tickett</a> </li>
-                                       <li class="nav-item" role="presentation"> <a class="nav-link padding-subNav-profile"  href="/bank-options">Bank Options</a> </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-						<!---Main Help-Option #2 Star---
-                    	<div class="col-lg-12">
-                           <div class="main-box wallet-box">
-                              <div class="wallet-tab-menu">
-                                 <div>
-                                       <ul class="nav nav-tabs justify-content-center collapse" id="help-tabb" role="tablist">
-                                          <li class="nav-item help-nav txt-profile-page">HELP <img  src="images/double-right.png" alt="Double Right Arrow Icon"></li>
-                                          <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >FAQs</a></li>
-                                          <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >View Tickets</a></li>
-                                          <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >Open a Ticket</a></li>
-                                          <li class="nav-item help-nav"><a data-toggle="tab" href="#home" role="tab" >Bank Options</a></li>
-                                       </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-						<!---Main Help-Option #2 End---> 
-					  </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-    <!---Profile Main REPORT - Wallet-box Star  End-->
+	<section class="available-game-section index-2 main-3 games-bingo">
+			<div class="overlay">
+				<div class="menu-area">
+					<div class="container">
+						<div class="menu-bar">
+							<div class="row justify-content-between align-item">
+								<div class="col-lg-12">
+									<div class="main-box wallet-box">
+										<div class="wallet-tab-menu">
+											<div>
+												<ul class="nav justify-content-center collapse" id="pills-tabb" role="tablist">
+													<li class="nav-item" id="btn-my-profile" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt3-tab" href="bingo-profile.html">My Profile</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt2-tab" data-toggle="pill" href="#pills-wt2" role="tab" aria-controls="pills-wt2" aria-selected="false">Withdraw</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt3-tab" data-toggle="pill" href="#pills-wt3" role="tab" aria-controls="pills-wt3" aria-selected="false">Game Activity</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt4-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Transactions Report</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt5-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Bonus Report</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt6-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Reconcile Report</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt7-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Deposit History</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt8-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Withdraw History</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" id="pills-wt9-tab" data-toggle="pill" href="#pills-wt4" role="tab" aria-controls="pills-wt4" aria-selected="false">Pre-Purchased Games</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="main-box wallet-box">
+										<div class="wallet-tab-menu">
+											<div>
+												<ul class="nav justify-content-center collapse" id="help-tabb" role="tablist">
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile"  href="/faqs" >FAQs</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" href="/view-tickets">Game View Tickets</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile" ref="/open-ticket">Open a Tickett</a>
+													</li>
+													<li class="nav-item" role="presentation">
+														<a class="nav-link padding-subNav-profile"  href="/bank-options">Bank Options</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!---Profile Main REPORT - Wallet-box Star  End-->
 	
 	<!-- ROOMS BINGO In start--->
     <section class="available-game-section index-2 games-2 games-bingo">
