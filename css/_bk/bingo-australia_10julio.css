@@ -86,11 +86,13 @@
 /*======HOME PAGE======*/
 .header-section.header-fixed { background-color: #073321;}
 .banner-section { padding-top: 100px; 
+
+/*	background: radial-gradient(circle, #2bad3d 25%, #006410 100%);
 background: rgb(31,132,91);
 background: -moz-radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
 background: -webkit-radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
 background: radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);*/
 }
 .banner-section .main-content h1 {font-size: 48px;line-height: 51.6px;}
 .banner-section .main-content h3 span {color: #00FEDF; font-family: inherit; font-weight: inherit; font-size: 38px;line-height:40.6px;}

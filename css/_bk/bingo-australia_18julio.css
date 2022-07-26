@@ -4,9 +4,7 @@
     --body-font: 'Roboto', sans-serif;
     --body-alt-font: 'Chakra Petch', sans-serif;
     --body-color: rgb(255, 255, 255);
-    --body-bg-dark: rgba(7,51,34,100);
-	--body-bg-light: rgba(31,132,91, 1);
-	
+    --body-bg: #186848;
 }
 
 
@@ -15,13 +13,6 @@
 .bg-green-2{background-color:#082d1e}
 .green{color: #00FEDF;}
 .yellow{color: #fecc3a;}
-.ptop-5 {padding-top: 5px}
-.pbottom-5 {padding-bottom: 5px}
-.pright-5 {padding-right: 5px}
-.pleft-5 {padding-left: 5px}
-
-.padding-10 {padding: 10px}
-.pright-14 {padding-right: 14px}
 .pt-20 {padding-top: 20px}
 .pb-20 {padding-bottom: 20px}
 .pr-20 {padding-right: 20px}
@@ -54,42 +45,16 @@
 .ml-20{margin-left: 20px}
 .member-110x110 .img-area {background: #03D6F9; width: 110px;height: 110px; border-radius: 50%; margin: 0 auto;overflow: hidden;}
 .main-nav-link:hover {cursor: pointer;}
-.cmn-btn { color: #73e779;border: 1px solid #5faf63; background: none; box-shadow: 0px 2px 0px rgb(20 91 63);}
-.cmn-btn:hover {
-    background: #74e779;
-    box-shadow: 0px 4px 0px #0e3e2a;
-    transition: all ease 0.3s;
-    color: #0e3e2a;
-}
-.cmn-btn-alt {color: #ffd400; border: 1px solid #ffd400; background: none; box-shadow: 0px 2px 0px rgb(20 91 63);/*background: #197852;box-shadow: 0px 4px 0px #032116;*/}
-.cmn-btn-alt:hover {
-    background: #ffd400;
-    box-shadow: 0px 4px 0px #0e3e2a;
-    color: #0e3e2a;
-}
-
-.z-index-2 {/*z-index: 2!important;*/}
-.p-4 { /*padding: 1.5rem!important;*/}
-.mt-n7 {/* margin-top: -6rem!important;*/}
+.cmn-btn-alt {background: #197852;box-shadow: 0px 4px 0px #032116;}
 /*======================END=====================*/
 
 
-/* BUTTONS */
+/* MODALS */
 .btn-help{ padding:8px 11px;}
 .btn-help .iconHelph{top: 2px; position: relative;}
-/*Color change svg: https://codepen.io/sosuke/pen/Pjoqqp*/
-.cmn-btn:hover .iconHelph{filter: invert(18%) sepia(13%) saturate(2469%) hue-rotate(104deg) brightness(88%) contrast(91%);}
-
-.cmn-btn-alt.btn-logged{color: #74e779;
-    border: 1px solid #74e779;
-    background: none;
-    box-shadow: 0px 2px 0px #0e3e2a;}
-.cmn-btn-second.btn-yellow{border: 1px solid #ffd400;color: #ffd400;}
-.iconHelph{filter: invert(92%) sepia(68%) saturate(583%) hue-rotate(51deg) brightness(92%) contrast(97%);}
-.iconHelph:hover{filter: invert(18%) sepia(13%) saturate(2469%) hue-rotate(104deg) brightness(88%) contrast(91%);}
-.header-section .navbar .navbar-nav li a.active, .header-section .navbar .navbar-nav li a:hover {color: #ffd400;}
-.header-section .navbar .navbar-nav .menu_has_children:hover::after {background-image: url(../images/down-arrow-hover.png);}
-.banner-section .main-content .cmn-btn { margin-top: 10px;}
+/*https://codepen.io/sosuke/pen/Pjoqqp*/
+.iconHelph{filter: invert(64%) sepia(76%) saturate(674%) hue-rotate(12deg) brightness(115%) contrast(98%);}
+.iconHelph:hover{filter: invert(95%) sepia(74%) saturate(660%) hue-rotate(14deg) brightness(101%) contrast(91%);}
 /*======================END=====================*/
 
 
@@ -102,7 +67,8 @@
 }
 .experience-years img {
     -webkit-animation: spin 20s linear infinite;
-    animation: spin 20s linear infinite;}
+    animation: spin 20s linear infinite;
+}
 .experience-years span {
     color: #ffc010;
     font-size: 60px;
@@ -117,67 +83,43 @@
 
 
 
-/*======HOME BACKGROUND======*/
+/*======HOME PAGE======*/
 .header-section.header-fixed { background-color: #073321;}
-.header-section .header-area {border-bottom: 1px solid rgb(7 55 37);}
-.path {position: absolute; opacity: .02;}
-.shapes {opacity: .02;}
-.dots, .shapes { position: absolute;z-index: 2;}
-.banner-section { padding-top: 100px;}
-.banner-section .banner-content .path { max-width: 65%;right: 0;top: 30px;}
-.banner-section .banner-content .path2 { position: absolute; opacity: .02; max-width: 41%;  right: -60px; top: -50px;}
-.banner-section .banner-content .triangle {top: 35%; left: 5%; max-height: 200px;}
-.banner-section .banner-content .wave { top: 45%; right: 30%; max-height: 90px;}
-.banner-section .banner-content .squares { top: 50%; right: 18%; max-height: 200px;}
-.banner-section .banner-content .circle { top: 20%; right: 36%; max-height: 75px;}
+.banner-section { background-image: none;}
 .banner-section .banner-content .ani-illu .left-1 {
-    left: -284px;
-    bottom: -65px;
+    left: -250px;
+    bottom: -40px;
 }
-.banner-section .banner-content .ani-img .bg-main-banner {position: absolute; width: 800px; height: 500px; top: 52px; right: 0; bottom: 0; left: 5%; background: radial-gradient(ellipse farthest-corner at 50% 50%, rgb(123 198 104 / 55%) 13.5%, rgba(31, 132, 91, 0) 66.7%);}
-.bottom-item .single-item img { border-radius: 0px;}
-.banner-section .banner-content .single-item .left-area img#icon-casino{
-    margin: 21px 30px 0px 30px;
+.banner-section { 
+	/*background: radial-gradient(circle, #2bad3d 25%, #006410 100% */
+	padding-top: 100px;
+	background: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(31, 132, 91, 1) 29.1%, rgba(14, 62, 42, 1) 74.2%);
+	
+/*	background: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(31, 132, 91, 1) 29.1%, rgba(14, 62, 42, 1) 74.2%); /*#1f845b #0e3e2a*/
+	
+	background: -webkit-radial-gradient(circle, #1f845b, #0e3e2a);
+    background: -o-radial-gradient(circle, #1f845b, #0e3e2a);
+    background: -moz-radial-gradient(circle, #1f845b, #0e3e2a);
+
+	
+	background: radial-gradient(circle, #2bad3d 25%, #006410 100%);
+background: rgb(31,132,91);
+background: -moz-radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
+background: radial-gradient(circle, rgba(31,132,91,1) 25%, rgba(14,62,42,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);*/
 }
-/*======================END=====================*/
-
-
-/*======HOME HEADER======*/
-.navbar-collapse .main-menu li .sub-menu {background-color: #073322;}
-.navbar-collapse .main-menu li .sub-menu li a { border-bottom: 1px solid #277150;}
-
-
-
-/*======BANNER SECCION HOME======*/
 .banner-section .main-content h1 {font-size: 48px;line-height: 51.6px;}
 .banner-section .main-content h3 {color: #DCF9D7; font-family: inherit; font-weight: 900; font-size: 30px;line-height:30px;text-shadow: 0px 1px 0px rgb(7 51 34);}
 .banner-section .main-content h3 span {color: #073322; font-family: inherit; font-weight: 900; font-size: 30px;line-height:30px;text-shadow: 0px 1px 0px rgb(11 222 104);}
-
-.box-content-bg{/*width: 470px;*/ margin: 0 auto;}
-.box-content-1{margin-bottom: 5px; padding: 7px}
-.style-box-1{/*width: 151px;*/background-color: rgb(0, 41, 24, 0.40); border-radius: 45px; padding: 10px 0px;margin: 0px -12px;margin-bottom: 10px;}
-.banner-section .main-content .box-content-1 #title-bonus {color: #dde7ff; font-family: inherit;font-weight: 900;font-size: 34px;line-height: 32px; text-shadow: 0px 1px 0px #002918;}
-.banner-section .main-content .box-content-1 #title-bonus span {color: #ffe100;; font-family: inherit;font-weight: 900;font-size: 34px; text-shadow: 0px 1px 0px #002918;}
-.banner-section .main-content .box-content-1 h3 {color: #dde7ff; font-family: inherit;font-weight: 600;font-size: 24px;line-height: 24px; text-shadow: 0px 1px 0px #002918;}
-.banner-section .main-content .box-content-1 h3 > span {color: #ffe100; font-family: inherit; font-weight: 900; font-size: 24px; line-height: 24px; text-shadow: 0px 1px 0px #002918;}
-
-
-
-
-/*Section-3steps*/
 .banner-section .banner-content .bottom-item {background-color: #073321;}
-.bg-white-5 {background-color: rgba(255,255,255,.5)!important;}
-.border-radius-xl {border-radius: 1rem;}
-.shadow-blur { box-shadow: inset 0 0 1px 1px rgba(254,254,254,.9),0 20px 27px 0 rgba(0,0,0,.05)!important;}
-.blur { box-shadow: inset 0 0 2px #fefefed1; -webkit-backdrop-filter: saturate(200%) blur(30px); backdrop-filter: saturate(200%) blur(30px); background-color: rgba(255,255,255,.55)!important;}
-.banner-section .banner-content .bottom-item h4 {color: var(--body-bg-dark); text-shadow: 0px 1px 0px rgb(11 222 104);}
-.banner-section .banner-content .bottom-item p {color: #2D623C; text-shadow: 0px 1px 0px rgb(116, 233, 120, 0.54);}
-
-
-/*Section-Promotion-Home*/
-/*.available-content-section {
-       background: linear-gradient(0deg, rgba(14,62,42,1) 0%, rgba(25,120,81,1) 37%, rgba(32,156,106,1) 98%);
+/*Section-Game*/
+/*.available-game-section {
+  background: -moz-radial-gradient(circle, #0f442e, #0f442e);
+  background-color: #0f442e;
 }*/
+
+/*Section-Promotion*/
 .available-content-section {
     position: relative;
 }
@@ -228,76 +170,6 @@
 }
 .available-content-section .contained-area .col-lg-3 {
     margin-bottom: 30px;
-}
-
-
-
-/*Section-Winner-Home*/
-#todays-winner-section .winner-chart {
-	background: #19744f3d;
-    border: 1px solid #addfc4;
-    box-shadow: 0px 4px 10px #addfc46b;
-}
-#todays-winner-section .title span {
-    color:#74e978;
-}
-#todays-winner-section .winner-chart h6{
-	color: #073322;
-}
-#todays-winner-section .winner-chart .single-item {
-    background-color: #acdec4;
-}
-#todays-winner-section .winner-chart .single-item .win-price {
-    background: #073322;
-    box-shadow: 0px 4px 8px rgb(12 23 80 / 80%);
-}
-#todays-winner-section .winner-chart .single-item .win-price span {
-    color: #74e978;
-}
-
-
-/*Section-Footer*/
-#footer-section .footer-top {
-    background-color: #e8f3f5;
-}
-#footer-section .section-header .title {
-    color: #003b24;
-}
-#footer-section .section-header p {
-   color: #d72957;
-}
-#footer-section .subscribe .btn {
-    background: #d72957;
-}
-#footer-section .footer-bottom .left-area a {
-    color: #74e978;
-}
-.btn.btn-icon.btn-simple, .navbar .navbar-nav>a.btn.btn-icon.btn-simple { padding: 0;}
-.btn-round.btn-simple { padding: 10px 22px;}
-.btn-neutral.btn-simple { color: #fff;border-color: #fff;background: transparent;}
-.btn.btn-icon, .navbar .navbar-nav>a.btn.btn-icon {
-    height: 2.375rem;
-    min-width: 2.375rem;
-    width: 2.375rem;
-    padding: 0;
-    font-size: .9375rem;
-    overflow: hidden;
-    position: relative;
-    line-height: normal;
-}
-.btn {
-    cursor: pointer;
-}
-.btn-round {
-    border-width: 1px;
-    border-radius: 30px;
-}
-.btn-simple {
-    border: 1px solid;
-    border-color: #344675;
-    box-shadow: none;
-    padding: 10px 22px;
-    background-color: transparent;
 }
 /*======================END=====================*/
 
@@ -510,7 +382,7 @@
     -ms-flex: 0 0 calc(100% / 2 - 15px);
     max-width: calc(100% / 2 - 15px);
     padding: 30px 20px;
-    border: 1px solid #0e3e2a;
+    border: 1px solid #262975;
     border-radius: 20px;
     margin-bottom: 30px;
     transition: all ease 0.5s;
@@ -524,14 +396,14 @@
 }
 .games-bingo .tab-content .single-item .grid-style .prize {
     padding: 15px 30px;
-    background: #0e3e2a;
+    background: #191951;
     border-radius: 10px;
 }
 .games-bingo .tab-content .single-item .grid-style .prize img {
     margin-right: 5px;
 }
 .games-bingo .tab-content .single-item .grid-style .prize h5 {
-    color: #ffd400;
+    color: #00FEDF;
 }
 .games-bingo .tab-content .single-item .grid-style .bet {
     text-transform: uppercase;
@@ -539,12 +411,12 @@
     line-height: 22px;
 }
 .games-bingo .tab-content .single-item .grid-style .bet span {
-    color: #74e779;
+    color: #00FEDF;
     font-size: inherit;
     line-height: inherit;
 }
 .games-bingo .tab-content .single-item .cmn-btn-second {
-    border: 1px solid #74e779;
+    border: 1px solid #4450B8;
 }
 .games-bingo .tab-content .single-item.list .list-right .end-on, .games-bingo .tab-content .single-item .grid-style .end-on {
     font-size: 14px;
@@ -552,7 +424,7 @@
     text-transform: uppercase;
 }
 .games-bingo .tab-content .single-item.list .list-right .end-on span, .games-bingo .tab-content .single-item .grid-style .end-on span {
-    color: rgb(14, 62, 42, 0.63);
+    color: #00FEDF;
     font-size: inherit;
     line-height: inherit;
 }
@@ -708,8 +580,8 @@ display: inline-block;
    padding: 0px 0px 20px;
 }
 .user-main-dashboard .container .earning-info-area {
-    background: #135338;
-	border: 1px solid #0e3e2a99;
+    background: #1c063e;
+    /* background: #250d52; */
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -718,7 +590,8 @@ display: inline-block;
     padding: 20px 10px 20px;
 }
 .user-main-dashboard .container .earning-info-area .s-info {
-    background: #135338;
+    background: #2e0a63;
+    /* background: #2d1767; */
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -739,12 +612,16 @@ display: inline-block;
     font-size: 22px;
     line-height: 30px;
     font-weight: 600;
-    color: #ffd400;
+    color: #fecc3a;
 }
-.user-main-dashboard .container .earning-info-area p {color: #CDF4E4;}
-.user-main-dashboard .container .current-balance {background: #135338;
-    border: 1px solid rgb(14, 62, 42, 0.63); padding: 20px 20px 20px; border-radius: 10px;}
-.user-main-dashboard .container .current-balance p {font-size: 16px; line-height: 26px;color: #74e779}
+.user-main-dashboard .container .current-balance {
+    background: #1c063e;
+    border: 1px solid #361f57;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+}
+.user-main-dashboard .container .current-balance {background: #1c063e; border: 1px solid #361f57; padding: 20px 20px 20px; border-radius: 10px;}
+.user-main-dashboard .container .current-balance p {font-size: 16px; line-height: 26px; color: #d0d3ff;}
 .user-main-dashboard .container .current-balance li {
     background: #2e0a63;
     display: block;
@@ -758,7 +635,7 @@ display: inline-block;
     margin-bottom: 6px;
 }
 .user-main-dashboard .container .current-balance p.text-info-profile {
-    background: rgb(14 62 42 / 63%);;
+    background: #2e0a63;
     display: block;
     text-align: justify;
     padding: 10px 20px 5px;
@@ -766,31 +643,30 @@ display: inline-block;
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    color: #CDF4E4; 
+    color: #fecc3a;
     margin-bottom: 6px;
 }
 .user-main-dashboard .container .current-balance h4.title-profile {background: none; display: block; text-align: center; padding: 20px 20px 15px; border-radius: 10px; font-size: 20px; line-height: 30px; font-weight: 600; color: #fecc3a;}
 
 /*Table Profile*/
-.user-main-dashboard .container .table-responsive {
-	background: #135338;
-    border: 1px solid rgb(14, 62, 42, 0.63);
+.user-main-dashboard .container .table-responsive {background: #1c063e;
+    border: 1px solid #361f57;
     padding: 20px 20px 20px;
     border-radius: 10px;
         }
 .user-main-dashboard .container .table thead tr {
-   background: #073322;;
-   color: var(--body-color);
-}
+            background: #35126c;
+            color: var(--body-color);
+        }
 .user-main-dashboard .container .table thead th {
             color: #fecc3a;
         }
 .user-main-dashboard .container .table tbody tr {
-    background: #0f462f;
-    border-bottom: 1px solid #74e978;
-    border-top: 1px solid #74e978;
-    transition: all ease 0.3s;
-}
+            background: #29125d;
+            border-bottom: 1px solid #4a3890;
+            border-top: 1px solid #4a3890;
+            transition: all ease 0.3s;
+        }
 .user-main-dashboard .container table th,.user-main-dashboard .container .table td {
             font-weight: bold;
             font-size: 14px;
@@ -801,9 +677,9 @@ display: inline-block;
             padding-left: 30px;
         }
 .user-main-dashboard .container .table tbody tr:hover {
-            background: #176444;
-            border-bottom: 1px solid rgb(116, 233, 120, 0.23); /*green light2*/
-            border-top: 1px solid rgb(116, 233, 120, 0.23);
+            background: #57039a;
+            border-bottom: 1px solid #3f4aa9;
+            border-top: 1px solid #3f4aa9;
             transition: all ease 0.3s;
         }
 /*======================END=====================*/
@@ -929,47 +805,27 @@ display: inline-block;
 .user-main-dashboard .container .earning-info-area img { margin-right: 0px;}	
 }
 
-
 @media (max-width: 1199px){ /* Desktop */
 .available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .single-play {
     margin-bottom: 30px;}	
-.banner-section .banner-content .ani-illu img.left-1 {width: 62%;left: -278px;bottom: -79px;}
 }
 	
-@media (min-width: 991px){	 /* Tablet */	
+@media (min-width: 991px){	 /* Tablet */
 .banner-section {padding-top: 147px;}
-.banner-section .banner-content .ani-illu .right-2{ right: -26%; bottom: -83px; width: 53%;}	
 .col-lg-6 .banner-home {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}	
 .experience-years { left: 16%;top: 25%;}
 .wallet-box .wallet-tab-menu .nav li#btn-my-profile {display: none}	
 }
  
 @media (max-width: 991px){	 /* Tablet */
-.header-section { background-color: #0e3e2a !important;}	
 .gamer-profile-top .gamer-profile-top-inner { justify-content: center;}
 .gamer-profile-top .gamer-profile-top-inner .g-p-t-counters {margin-top: 20px;}
 .msg-btn-wrapper { margin-left: 0px;}	
 	
-.banner-section .banner-content .ani-illu img.left-1 {width: 46%;
-    left: -213px;
-    z-index: 4;
-    bottom: 39px;}
-.banner-section .banner-content .path {
-    max-width: 65%;
-    right: 0;
-    top: 25%;
-}
-.banner-section .banner-content .path2 {
-    position: absolute;
-    opacity: .02;
-    max-width: 41%;
-    right: -60px;
-    top: 25%;
-}
-.banner-section .banner-content .ani-illu .right-2 { right: -24%; bottom: 33px;width: 42%;}	
+.banner-section .banner-content .ani-illu img.left-1 {width: 50%;left: -133px;}
 .banner-section .main-content .cmn-btn {line-height: 12.6px; margin-top: 45px; padding-top: 12px; padding-bottom: 5px;}
 .available-content-section .contained-area { margin-top: 30px;}
-.banner-section .banner-content .container {margin-top: 0%/*margin-top: 9%*/}	
+.banner-section .banner-content .container {margin-top: 9%}	
 .experience-years { left: 7%;top: 17%;}	
 
 .wallet-box .wallet-tab-menu .nav  li {width: 32%;}	
@@ -980,28 +836,24 @@ display: inline-block;
 .games-bingo .tab-content .single-item .grid-style {width:auto;}
 .games-bingo .tab-content .single-item .grid-style .head-area { margin: 12px 0;}
 .games-bingo .tab-content .single-item .grid-style .bet {margin: 15px 0;}
-.games-bingo .tab-content .single-item .cmn-btn-second {margin-bottom: 15px;}	
+.games-bingo .tab-content .single-item .cmn-btn-second {margin-bottom: 15px;}
+	
 .gamer-profile-top .gamer-profile-top-inner .msg-btn-wrapper { margin-left: 0px; margin-top: 20px;} 
-#todays-winner-section { background-image: url(../images/todays-winner-bg-movil.png); background-size: 100% 100%; background-repeat: no-repeat;}
 	
 /*Promotion page*/	
  .available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-body p {font-size: 14px;line-height: 20px;}
 }
 
 @media (max-width: 963px){	  /* Tablet */
-.experience-years { left: 45%;top: 12%;}		
-.banner-section .banner-content .container {margin-top: 0%/*margin-top: 13%*/}
-.banner-section .banner-content .ani-illu img.left-1 {width: 36%;  left: -71px;bottom: -17px}
-.banner-section .banner-content .ani-illu .right-2 {right: -4%;bottom: 1px;width: 32%;}	
+.experience-years { left: 45%;top: 12%;}	
+.banner-section .banner-content .ani-illu img.left-1 {width: 44%;left: -85px;}
+.banner-section .banner-content .container {margin-top: 13%}
 .banner-section.games { padding-top: 90px;}
 }
 
 @media (max-width: 767px) {  /* Tablet */
 .experience-years { left: 42%;top: 10%;}
 .banner-section .banner-content .container {/*margin-top: 18%; */ margin-bottom: 10%;}
-.banner-section .banner-content .ani-illu img.left-1 {width: 44%;
-left: -98px;}		
-	
 .banner-section.games { padding-top: 40px; padding-bottom: 0;}	
 .banner-section.games .banner-side {display: none}
 .banner-section.inner-banner h1 {font-size: 24px;}
@@ -1027,38 +879,34 @@ left: -98px;}
 .user-main-dashboard .container .earning-info-area .s-info {display: block; text-align: center;}
 	
 /*Promotions Page*/
-.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link {width: 95%;}
-.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link::after {right: -4.3% !important;}
-.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link::before {right: -5.9% !important;}	
+.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link {
+	width: 95%;
+	}
+.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link::after {
+    right: -4.3% !important;
+}
+.available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-header .btn-link::before {
+	right: -5.9% !important;
+	}	
 }
 
 @media (max-width: 575px){  /* Tablet */
-/* .box-content-1{width:60%;}
-.box-content-bg .style-box-1 {width:60%;}
-	*/
 .available-content-section .contained-area .col-lg-3 { text-align: center;}
 .btn-help{ padding:5px 11px;}
 .icon-envelope{width:20px;}
 .txt-profile-page {font-size: 12px; font-weight: 400; width: 130px;}
 .experience-years { left: 40%;top: 10%;}	
-.banner-section .banner-content .container {margin-top: 0%;/*margin-top: 10%*/;margin-bottom: 10%;}
-.banner-section .banner-content .ani-illu img.left-1 {width: 37%;left: -34px; bottom: -6px;}		
-.banner-section .banner-content .ani-illu .right-2 { right: -4%; width: 33%; bottom: 0px;}
+.banner-section .banner-content .container {/*margin-top: 22%*/margin-top: 10%;margin-bottom: 10%;}	
 	
 .games-bingo .tab-content .mb-cus .col-lg-3 {padding: 0 15%; margin-bottom: 15px;}
 .games-bingo .tab-content .nice-select {padding: 7px 15px;}	
-	
-#todays-winner-section {background-image: none;}
 }
-
 
 @media (max-width: 480px) { /* Mobile */
 .experience-years { left: 38%;top: 9%;}	
 
 .mobile-hide-banner  { display: none; }	
-.banner-section .banner-content .container {margin-top: 0%;/*margin-top: 24%*/;}
-.banner-section .banner-content .ani-illu img.left-1 {width: 39%;left: -15px; bottom: 31px;}		
-.banner-section .banner-content .ani-illu .right-2 {right: -4%; width: 37%; bottom: 24px;}	
+.banner-section .banner-content .container {margin-top: 24%}
 	
 .gamer-profile-top .gamer-profile-top-inner .profile-photo { margin-top: 40px;}	
 .games-bingo .tab-content .all-items {justify-content: center;}
@@ -1071,8 +919,8 @@ left: -98px;}
 
 @media (max-width: 380px){	/* Mobile */
 .experience-years { left: 33%;top: 7%;}	
-.banner-section .banner-content .container {margin-top: 0%;/*margin-top: 26%*/;}	
-
+.banner-section .banner-content .container {margin-top: 26%}	
+.banner-section .banner-content .ani-illu img.left-1 {width: 50%; left: -59px; top: -234px;}
 .match_details_counterup {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1085,7 +933,7 @@ left: -98px;}
 @media (max-width: 340px){	 /* Mobile */
 .banner-section .main-content h1 {font-size: 24px;line-height: 28.6px;}
 .banner-section .main-content h3  {font-size: 22px; line-height: 25px;}	
-.banner-section .banner-content .container {margin-top: 0%;/*margin-top: 28%*/;}	
+.banner-section .banner-content .container {margin-top: 28%}	
 .banner-section .banner-content .ani-illu img.left-1 {display: none;}
 .banner-section .banner-content .ani-illu .right-2 {display: none;}
 }

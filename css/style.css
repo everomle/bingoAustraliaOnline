@@ -1004,13 +1004,13 @@ input[type="checkbox"]:checked + label{
 .banner-section {
     position: relative;
     padding-top: 167px;
-	background-color:#0f442e;
-    
-    /*background-color: #280B70;*/
-	background-image: url(../images/banner-bg.png); 
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-bottom: 69px;
+	margin-bottom: 69px; 
+	background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background: -moz-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background: -webkit-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background-size: contain;
+	background-blend-mode: color;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);
 }
 .banner-section .main-content h1{
     text-transform: uppercase;
@@ -1074,8 +1074,11 @@ input[type="checkbox"]:checked + label{
     bottom: 0;
 }
 .banner-section .banner-content .ani-illu .right-2{
-    right: 0;
-    bottom: 0;
+    /*right: 0;
+    bottom: 0;*/
+	 right: -19%;
+    bottom: -72px;
+    width: 51%;
 }
 .banner-section .banner-content .bottom-item {
     border-radius: 10px;
@@ -1138,6 +1141,7 @@ input[type="checkbox"]:checked + label{
 
 /* Todays winner  */
 #todays-winner-section{
+	 background-color: #003c24;
     background-image: url(../images/todays-winner-bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -1527,8 +1531,9 @@ input[type="checkbox"]:checked + label{
 
 /* Footer Section */
 #footer-section {
-    background-color: #220970;
-    margin-top: 260px;
+    padding-top: 260px;
+	background: linear-gradient(180deg, rgba(0,60,36,1) 19%, #082117 19%);
+	/*background-color: #220970;*/
 }
 #footer-section .section-header{
     margin-top: -6px;
@@ -1618,7 +1623,8 @@ input[type="checkbox"]:checked + label{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px 0 20px;
+    margin: 0 5px 0 5px;
+	/*margin: 0 10px 0 20px;*/
 }
 #footer-section .social-area a img{
     z-index: 1;
@@ -1629,12 +1635,12 @@ input[type="checkbox"]:checked + label{
     z-index: 0;
     width: 30px;
     height: 30px;
-    background-image: url(../images/social-bg.png);
+   /* background-image: url(../images/social-bg.png); */
     background-repeat: no-repeat;
     transition: ease 0.5s;
 }
 #footer-section .social-area a:hover::before{
-    background-image: url(../images/social-bg-hover.png);
+    /*background-image: url(../images/social-bg-hover.png);*/
     background-repeat: no-repeat;
     transition: ease 0.5s;
 }
@@ -1949,7 +1955,8 @@ input[type="checkbox"]:checked + label{
 
 /* Available Game */
 .available-game-section.index-2.games {
-    background: #0D0D48;
+    background: #197852;
+	/*background: #0D0D48;*/
 }
 .available-game-section.index-2.games .overlay {
     margin-top: 0;
@@ -2407,7 +2414,7 @@ input[type="checkbox"]:checked + label{
 
 /* Tournament Start */
 .tournament-section {
-    background: #0D0D48;
+    background: #003c24;
 }
 .tournament-section .section-header{
     margin-top: -12px;
@@ -2446,8 +2453,8 @@ input[type="checkbox"]:checked + label{
 .tournament-section .slick-initialized .slick-prev {
     width: 40px;
     height: 40px;
-    background: #4E01CE;
-    box-shadow: 0px 4px 0px #4707B3;
+    background: #197852;
+    box-shadow: 0px 4px 0px #082117;
     border-radius: 10px;
     display: inline-block;
 }
