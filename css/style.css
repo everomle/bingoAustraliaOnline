@@ -4,9 +4,9 @@
     --body-font: 'Roboto', sans-serif;
     --body-alt-font: 'Chakra Petch', sans-serif;
     --body-color: rgb(255, 255, 255);
-   /*--body-bg: #00003E;*/
     --body-bg:#197852;
     --body-background:#197852;
+	/*--body-bg: #00003E;*/
 }
 html{
     scroll-behavior: smooth;
@@ -14,7 +14,7 @@ html{
 }
 body {
     font-family: var(--body-font);
-    background-color: var(--body-background);
+	/*background-color: var(--body-background);*/
     font-size: 18px;
     line-height: 25px;
     padding: 0;
@@ -1003,14 +1003,17 @@ input[type="checkbox"]:checked + label{
 /* banner-section */
 .banner-section {
     position: relative;
-    padding-top: 167px;
-	margin-bottom: 69px; 
+	background-color: #197852;
+	/*
+	padding-top: 167px;
+	margin-bottom: 69px;
 	background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background: -moz-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background: -webkit-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background-size: contain;
 	background-blend-mode: color;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);
+	*/
 }
 .banner-section .main-content h1{
     text-transform: uppercase;
@@ -1027,6 +1030,17 @@ input[type="checkbox"]:checked + label{
     margin-top: 35px;
     margin-bottom: 20px;
 }
+.banner-section .banner-content{
+background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background: -moz-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background: -webkit-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	background-size: contain;
+	background-blend-mode: color;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);	
+	padding-top: 118px;
+}
+
+
 .banner-section .banner-content .col-lg-12{
     z-index: 3;
 }
@@ -3383,9 +3397,10 @@ input[type="checkbox"]:checked + label{
         font-size: 14px;
         line-height: 18px;
     }
+	/*
     .banner-section {
         padding-top: 130px;
-    }
+    }*/
     #jackpot-section .slick-initialized .slick-prev{
         right: 0;
     }
