@@ -194,7 +194,7 @@ transition: all ease 0.3s;}
 
 /*Section-Promotion-Home*/
 .available-content-section {
-    position: relative;
+    position: relative; background: #197852;
 }
 .available-content-section.games {
     z-index: 1;
