@@ -32,7 +32,8 @@ h1,h2,h3,h4,h5,h6 {
   h4,h4>a,
   h5,h5>a,
   h6,h6>a {
-    font-family: var(--body-alt-font);
+    font-family: var(--body-font);
+	/*font-family: var(--body-alt-font);*/
     color: var(--body-color);
     line-height: 1.25;
     font-weight: 600;
