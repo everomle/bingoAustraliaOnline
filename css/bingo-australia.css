@@ -56,6 +56,10 @@
 .ta-center{text-align: center}
 .ta-justify{text-align:justify}
 .mt-120{margin-top:120px}
+.mt-0{margin-top: 0px}
+.mb-0{margin-bottom: 0px}
+.mr-0{margin-right: 0px}
+.ml-0{margin-left: 0px}
 .mt-10{margin-top: 10px}
 .mb-10{margin-bottom: 10px}
 .mr-10{margin-right: 10px}
@@ -64,6 +68,11 @@
 .mb-8{margin-bottom: 8px}
 .mr-8{margin-right: 8px}
 .ml-8{margin-left: 8px}
+.mt-15{margin-top: 15px}
+.mb-15{margin-bottom: 15px}
+.mr-15{margin-right: 15px}
+.ml-15{margin-left: 15px}
+
 .mt-20{margin-top: 20px}
 .mb-20{margin-bottom: 20px}
 .mr-20{margin-right: 20px}
@@ -199,9 +208,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 .banner-section .main-content .box-content-1 h3 > span {color: #ffe100; font-family: inherit; font-weight: 900; font-size: 20px; line-height: 20px; text-shadow: 0px 1px 0px #002918;}
 
 
-
-
-/*Section-3steps*/
+/*SECCION-HOME:3steps*/
 .banner-section .banner-content .bottom-item {background-color: #073321;}
 .bg-white-5 {background-color: rgba(255,255,255,.5)!important;}
 .border-radius-xl {border-radius: 1rem;}
@@ -210,10 +217,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 .banner-section .banner-content .bottom-item h4 {color: var(--body-bg-dark); text-shadow: 0px 1px 0px rgb(11 222 104);}
 .banner-section .banner-content .bottom-item p {color: #2D623C; text-shadow: 0px 1px 0px rgb(116, 233, 120, 0.54);}
 
-/*Section-Casino-Home*/
+/*SECCION-HOME:Casino*/
 .feature-game-section{background-color: #197852}
 
-/*Section-Promotion-Home*/
+/*SECCION-HOME:Promotion*/
 .available-content-section {
     position: relative; background: #197852;
 }
@@ -300,7 +307,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 }
 
 
-/*Section-Winner-Home*/
+/*SECCION-HOME:Winner*/
 #todays-winner-section .winner-chart {
 	background: #19744f3d;
     border: 1px solid #addfc4;
@@ -324,7 +331,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 }
 
 
-/*Section-Footer*/
+/*SECCION-HOME:Footer*/
 #footer-section .footer-top {
     background-color: #e8f3f5;
 }
@@ -372,7 +379,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 
 
 
-/*======PROMOTIONS PAGE======*/
+/*======PROMOTIONS-PAGE======*/
 .available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box {
     width:96%;
     box-shadow: inset 0px 0px 10px 5px #00a2ff, 0px 0px 10px #00a2ff;
@@ -583,16 +590,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 
 
 
-
-
-
-
-
-
-
-
-
-/*======GAMES BINGO PAGE======*/
+/*======GAMES-BINGO-PAGE======*/
 .txt-profile-page{font-size: 16px}
 .envelope img{margin: 0px;}
 .icon-envelope{width:27px; filter: invert(27%) sepia(12%) saturate(7163%) hue-rotate(127deg) brightness(110%) contrast(80%); /* filter: invert(64%) sepia(76%) saturate(674%) hue-rotate(12deg) brightness(115%) contrast(98%);*/}
@@ -679,7 +677,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 
 
 
-/*======PROFILE PAGE======*/
+/*======PROFILE-PAGE======*/
 /*Profile User Balance*/
 .gamer-profile-top {
 background: #073322;
@@ -795,7 +793,7 @@ display: inline-block;
 }
 
 
-/* New Wallet Profile** */
+/*SECTION-PROFILE:Wallet*/
 .col-user.col-lg-3 { padding-right: 5px;padding-left: 5px;}
 .bottom-item .user-profile-photo{text-align: center;}
 .bottom-item .user-profile-photo img{display: inline-block; /*max-width: 70%;*/}
@@ -815,10 +813,10 @@ display: inline-block;
 .bottom-item .box-counter-message .content {flex: 1;}  /*---------*/
 .bottom-item .box-counter-message .content h4 {font-size: 18px; line-height: 10px; font-weight:600; color: #073322;  text-shadow: none; padding: 13px 0px;}	
 .bottom-item .nav-tabs { border-bottom: none;margin-top: 10px;}
-/* End-New Wallet Profile*/
+/* SECTION-PROFILE:End-Wallet*/
 
 
-/*Sections Profile */
+/*SECTION-PROFILE:Profile*/
 .padding-subNav-profile { padding: 0.5rem 0.5rem;}
 .user-main-dashboard {/*padding: 80px 0px 20px; */ background: var(--body-bg);}
 .user-main-dashboard main .main-box .header-area { margin-bottom: 5px;}
@@ -829,7 +827,7 @@ display: inline-block;
 .available-game-section.main-3 .overlay .menu-area { padding-top: 80px;}
 .available-game-section.main-4 .overlay .menu-area { background: #197852;}
 
-/*Profile Main - Main Reports - Wallet-box tabs */
+/*SECTION-PROFILE:Main Reports- Wallet-box tabs*/
 .wallet-box .wallet-tab-menu .nav {/* background-color: #005236; */ padding: 5px 5px;text-align: center; }
 .wallet-box .wallet-tab-menu .nav li { display: inline-block;    background: #073322; border: 1px solid #8ac5a9;width: 20%;padding: 7px 15px; height:auto; margin: 4px;border-radius: 28px}
 .wallet-box .wallet-tab-menu .nav .help-nav{ display: inline-block;background:none; border: none;width:auto;min-width: 30px; border-radius:initial;padding: 7px 15px; height:auto; margin: 4px;font-weight: 900;text-transform: uppercase;}
@@ -843,7 +841,7 @@ display: inline-block;
 .wallet-box .wallet-tab-menu .nav li a:hover, .wallet-box .wallet-tab-menu .nav li a.active { /*color: #fdfffd;*/}
 .wallet-box .wallet-tab-menu .nav li a {color: #fdfffd; font-size: 14px;line-height: 10px;}
 
-/*Profile Info User*/
+/*SECTION-PROFILE:Info-User*/
 .user-main-dashboard .container .earning-info-area {
 	border: 1px solid #afb3b2;
     border-radius: 10px;
@@ -909,7 +907,7 @@ display: inline-block;
 }
 .user-main-dashboard .container .current-balance h4.title-profile {background: none; display: block; text-align: center; padding: 20px 20px 15px; border-radius: 10px; font-size: 20px; line-height: 30px; font-weight: 900; color:#f54011;}
 
-/*Table Profile*/
+/*Table-Profile*/
 .user-main-dashboard .container .table-responsive {
 	background: linear-gradient(0deg, #b8eed1 0%, rgba(237,255,252,1) 80%);
     border: 1px solid #afb3b2;
@@ -957,7 +955,7 @@ display: inline-block;
 
 
 
-/*======GAME ACTIVITY PROFILE======*/
+/*======GAME-ACTIVITY-PAGE======*/
 .game-activity-body {padding: 0px 0px 0px; background: var(--body-bg); /*padding: 40px 0px 0px;*/}
 /*.game-activity-body {padding: 30px 30px 30px;}*/
 .game-activity-body main .main-box { padding: 30px 30px 30px; border: 1px solid #0a6ec1; border-radius: 10px;}
@@ -986,17 +984,29 @@ display: inline-block;
 
 
 
-/*======REGISTER PAGE======*/
+/*======REGISTER-PAGE======*/
 .radio-label { color: #fff;}
 .form-control .radioselect { font-size: 0.5rem;}
 /*======================END=====================*/
 
 
-/*======FAQ PAGE======*/
+/*======FAQ-PAGE======*/
 #faq-page{background: var(--body-bg);}
 /*======================END=====================*/
 
+
+/*======PLAY-FOR-FUN_&_CASINO-GAME======*/
+.section-header.slots-games { margin-top: 30px;margin-bottom: 0px; text-align: justify;}
+.available-content-section .container .slots-games{justify-content: flex-end!important; }	
+.available-content-section .container .slots-games .right-area .nav-tabs { border-bottom: none;}
+.available-content-section .container .slots-games .right-area .nav-tabs .nav-item:first-child {margin-right: 5px}
+.available-content-section .container .slots-games .right-area .nav-tabs .active.cmn-btn { background: #ffd400; box-shadow: none;color: #0e3e2a; padding: 12px 20px;}
+
+
+
+
 /* ============================= * RESPONSIVE * =============================*/
+/* ==========================================================================*/
 @media (max-width: 1200px){  /* Desktop */
 .user-main-dashboard .container .earning-info-area {margin-top: 10px; padding: 5px 20px;}	
 .user-main-dashboard .container .earning-info-area .s-info {display: inline-flex; text-align: center ;width: 95%; padding: 10px;}
@@ -1020,7 +1030,7 @@ display: inline-block;
 .banner-section .banner-content .bottom-area img{width: 80%}
 .banner-section .main-content .box-content-1 #title-bonus{margin-bottom: 8px}
 .col-lg-6 .banner-home {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}	
-.wallet-box .wallet-tab-menu .nav li#btn-my-profile {display: none}	
+.wallet-box .wallet-tab-menu .nav li#btn-my-profile {display: none}		
 }
  
 @media (max-width: 991px){	 /* Tablet */
@@ -1036,9 +1046,7 @@ display: inline-block;
 .banner-section .main-content .bottom-area > p { font-size: 22px; margin-top: 4px;}
 .banner-section .main-content .cmn-btn {line-height: 12.6px;padding: 18px 20px;color: #f7f9f7; border: 1px solid #ff4312; background: #fe864e; box-shadow: 0px 2px 0px rgb(20 91 63);}
 .available-content-section .contained-area { margin-top: 30px;}
-.available-content-section .contained-area .col-lg-3 .prize h5 {
-    font-size: 18px;
-}	
+.available-content-section .contained-area .col-lg-3 .prize h5 {font-size: 18px;}	
 .banner-section .banner-content .container {margin-top: 0%/*margin-top: 9%*/}	
 
 .experience-years {right: 0%; position: absolute; top: 10%;}
@@ -1058,10 +1066,10 @@ display: inline-block;
 .gamer-profile-top .gamer-profile-top-inner .msg-btn-wrapper { margin-left: 0px; margin-top: 20px;} 
 #todays-winner-section { background-image: url(../images/todays-winner-bg-movil.png); background-size: 100% 100%; background-repeat: no-repeat;}
 	
-/*Promotion page*/	
+/*Promotion-page*/	
  .available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .card-body p {font-size: 14px;line-height: 20px;}
 	
-/***New Wallet Profile***/	
+/***Wallet-Profile***/	
 .bottom-item .user-profile-name{top: 142px;}
 .bottom-item .box-counter-user .content {flex: none; display: flex;}
 .bottom-item .box-counter-user .content h4 { margin-right: 4px;}
@@ -1070,8 +1078,11 @@ display: inline-block;
 .bottom-item .box-counter-message {padding: 12px 14px;}
 .bottom-item .box-counter-message .content {flex: none; display: flex;}
 .bottom-item .box-counter-message .content h4 { margin-right: 4px; padding: 10px 0px;}
-.bottom-item .box-counter-message .content span {font-size: 14px;}	
+.bottom-item .box-counter-message .content span {font-size: 14px;}
 	
+/**PlayForFree_&_CasinoGames**/	
+.section-header.slots-games {margin-bottom: 15px;}	
+.available-content-section .container .slots-games{justify-content: center!important;}	
 }
 
 @media (max-width: 963px){	  /* Tablet */
@@ -1181,7 +1192,7 @@ left: -56px;}
 .experience-years img {width: 36%}
 .experience-years span { font-size: 34px;left: 19%;  top: 50%; }
 
-.mobile-hide-banner  { display: none; }	
+.mobile-hide-banner  {display: inherit; /* display: none; */}	
 .banner-section .banner-content .container {margin-top: 0%;/*margin-top: 24%*/;}
 .banner-section .banner-content .ani-illu img.left-1 {width: 27%;left: 11px; bottom: 32px;}		
 .banner-section .banner-content .ani-illu .right-2 {right: 5%; width: 27%; bottom: 39px;}	
