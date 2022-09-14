@@ -1546,9 +1546,11 @@ background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),u
 
 /* Footer Section */
 #footer-section {
-    padding-top: 260px;
-	background: linear-gradient(180deg, rgba(0,60,36,1) 19%, #082117 19%);
-	/*background-color: #220970;*/
+	background: #05261a;
+	/*background: linear-gradient(180deg, rgba(0,60,36,1) 19%, #082117 19%);
+	background-color: #220970;
+	padding-top: 260px;
+	*/
 }
 #footer-section .section-header{
     margin-top: -6px;
