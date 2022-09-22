@@ -298,6 +298,9 @@ body::-webkit-scrollbar-thumb:hover {
         flex-wrap: wrap;
         margin-left: 20px;
     }
+    .header-section .navbar .navbar-nav .menu_has_children a{
+        padding-right: 39px;
+    }
 }
 .navbar-collapse .main-menu li:last-child .sub-menu {
     left: auto;
@@ -2006,7 +2009,6 @@ background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),u
 /* Todays winner */
 #todays-winner-section.games {
     background-image: unset;
-    background-color: var(--body-bg);
 }
 #todays-winner-section.games .left-side{
     background: radial-gradient(78.16% 122.14% at 50% 54.76%, #FB0078 0%, #3E0B77 63.7%, #2F0C78 100%);

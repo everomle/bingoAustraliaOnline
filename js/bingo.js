@@ -52,3 +52,15 @@ function resetCollapseMenu(linkId, imageId, rightImageSrc, fadeOutTime) {
     $(linkId).collapse("hide");
    
 }
+
+
+// When the padding top is 40px, means is full screen and the links should work
+// when it is not 40px, is mobile screen and the link should not go
+$(".menu_has_children a").click(function() {
+    console.log($(this).parent().attr('class'))
+
+    return "menu_has_children" === $(this).parent().attr('class')?
+        "40px" === $(this).css('padding-top'):
+        true;
+});
+
