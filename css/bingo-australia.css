@@ -229,8 +229,7 @@ label.toggle {
 /*TABLE RESPONSIVE*/
 .table {
     width: 100%;
-    max-width: 750px;
-	/*border-collapse: separate;*/
+	/*max-width: 750px;border-collapse: separate;*/
     text-align: center;
     margin: 10px auto;
 	overflow: scroll;
@@ -252,8 +251,10 @@ label.toggle {
 .table tbody tr td:first-child  {text-transform: uppercase;}
 .table tbody tr td {font-size: 12px;}
 .table td {
-    background-color: #f8f8f8;
-    vertical-align: middle;
+	vertical-align: middle;
+	background-color:#e9f3f5;
+	color:#073322!important;
+	/*background-color: #f8f8f8;*/
 }
 .table-responsive-sm .table tbody tr:hover {
             background: #B02048;
@@ -272,6 +273,15 @@ label.toggle {
     padding: 20px 20px 20px;
     border-radius: 10px;
 }
+.input-group-text.userId-padding{padding: 0.375rem 0.90rem}
+.input-group-text.name-padding{padding: 0.375rem 0.95rem}
+.input-group-text.phoneNumber-padding{padding: 0.375rem 0.80rem}
+.input-group-text.mobile-padding{padding: 0.375rem 1rem}
+.input-group-text.email-padding{padding: 0.375rem 0.75rem}
+.input-group-text.birthDate-padding{padding: 0.375rem 0.85rem}
+.input-group-text.gender-padding{padding: 0.375rem 0.75rem}
+.input-group-text.emailPromo-padding{padding: 0.375rem 0.83rem}
+
 /*======================END=====================*/
 
 
@@ -279,6 +289,7 @@ label.toggle {
 .header-section.header-fixed { background-color: #073321;}
 .header-section .header-area {border-bottom: 1px solid rgb(7 55 37);}
 .path {position: absolute; opacity: .02;}
+.path1 {left: 0px; bottom:-140px; max-width: 100%; position: absolute; opacity: 0.2;}
 .shapes {opacity: .02;}
 .dots, .shapes { position: absolute;z-index: 2;}
 /* .banner-section { padding-top: 100px;} */
@@ -293,7 +304,7 @@ label.toggle {
 .banner-section .banner-content .ani-img .bg-main-banner {position: absolute; width: 800px; height: 500px; top: 52px; right: 0; bottom: 0; left: 5%; background: radial-gradient(ellipse farthest-corner at 50% 50%, rgb(123 198 104 / 55%) 13.5%, rgba(31, 132, 91, 0) 66.7%);}
 .bottom-item .single-item img { border-radius: 0px;}
 .banner-section .banner-content .single-item .left-area img#icon-casino{
-    margin: 21px 30px 0px 30px;
+    margin: 10px 30px 0px 30px;
 }
 /*======================END=====================*/
 
@@ -345,7 +356,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endCol
 .banner-section .banner-content .bottom-item p {color: #2D623C; text-shadow: 0px 1px 0px rgb(116, 233, 120, 0.54);}
 
 /*SECCION-HOME:Casino*/
-.feature-game-section{background-color: #197852}
+.feature-game-section{background-color: #197852; /*background-color: #0e3e2a;*/}
 
 /*SECCION-HOME:Promotion*/
 .available-content-section {
@@ -970,14 +981,16 @@ display: inline-block;
 
 /*SECTION-PROFILE:Info-User*/
 .user-main-dashboard .container .earning-info-area {
-	border: 1px solid #afb3b2;
+	border: 1px solid #073322;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
     padding: 5px 10px;
-	background: linear-gradient(0deg, rgba(207,237,229,1) 50%, rgba(237,255,252,1) 100%);   
+	box-shadow: 0px 2px 0px rgb(20 91 63);
+	background: linear-gradient(0deg, #e8f3f5 50%, #e2faff 100%);
+	/*border: 1px solid #afb3b2; background: linear-gradient(0deg, rgba(207,237,229,1) 50%, rgba(237,255,252,1) 100%);  */
 }
 .user-main-dashboard .container .earning-info-area .s-info {
     padding: 10px;
@@ -1004,7 +1017,15 @@ display: inline-block;
     color: #f44011;
 }
 .user-main-dashboard .container .earning-info-area p {/*color: #0f4b33;*/ color: #197852;}
-.user-main-dashboard .container .current-balance {  background: linear-gradient(0deg, rgba(207,237,229,1) 50%, rgba(237,255,252,1) 100%); border: 1px solid #afb3b2; padding: 20px 20px 20px; border-radius: 10px;}
+.user-main-dashboard .container .current-balance {  
+	box-shadow: 0px 2px 0px rgb(20 91 63);
+	background: linear-gradient(0deg, #e8f3f5 50%, #e2faff 100%);
+	border: 1px solid #073322;
+	padding: 20px 20px 20px; 
+	border-radius: 10px;
+	/*background: linear-gradient(0deg, rgba(207,237,229,1) 50%, rgba(237,255,252,1) 100%);
+	border: 1px solid #afb3b2;*/ 
+}
 .user-main-dashboard .container .current-balance p {font-size: 16px; line-height: 26px;color: #073322}
 .user-main-dashboard .container .current-balance li {
     background: #2e0a63;
@@ -1036,10 +1057,12 @@ display: inline-block;
 
 /*Table-Profile*/
 .user-main-dashboard .container .table-responsive {
+	/*
 	background: linear-gradient(0deg, #b8eed1 0%, rgba(237,255,252,1) 80%);
     border: 1px solid #afb3b2;
     padding: 20px 20px 20px;
     border-radius: 10px;
+	*/
         }
 .user-main-dashboard .container .table-responsive .table-wallet-profile tr:last-child td:first-child { border-bottom-left-radius: 10px; }
 .user-main-dashboard .container .table-responsive .table-wallet-profile tr:last-child td:last-child { border-bottom-right-radius: 10px;}

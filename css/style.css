@@ -1212,11 +1212,13 @@ background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),u
     height: fit-content;
 }
 #todays-winner-section .winner-chart .single-item .name-area img{
-    background-color: #03D6F9;
+    background-color: #fff;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin: 0 10px 0 15px;
+	border: 1px solid #fff;
+	/*background-color: #03D6F9;*/
 }
 #todays-winner-section .winner-chart .single-item .name-area h6{
     text-transform: uppercase;
