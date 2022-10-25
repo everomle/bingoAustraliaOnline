@@ -201,7 +201,7 @@ transition: all ease 0.3s;}
 .greenDark-svg{filter:invert(17%) sepia(18%) saturate(1856%) hue-rotate(102deg) brightness(92%) contrast(90%);}
 .greenDark-svg:hover{filter: invert(91%) sepia(22%) saturate(5019%) hue-rotate(358deg) brightness(101%) contrast(102%);}
 .box-winner-prize{position: relative;bottom: 24px;background: #4E01CE; border-radius: 20px; margin: 0 auto;; width: 170px; padding: 6px 0;}
-.text-longshadow {font-size: 4.5em; font-weight: 900; text-align: center; color: #fff; text-shadow: 1px 1px 17px rgb(25 25 203 / 10%), 1px 1px rgb(7 50 36 / 46%);
+.text-longshadow {padding-top: 40px;font-size: 4.5em; font-weight: 900; text-align: center; color: #fff; text-shadow: 1px 1px 17px rgb(25 25 203 / 10%), 1px 1px rgb(7 50 36 / 46%);
 }
 /*======================END=====================*/
 
