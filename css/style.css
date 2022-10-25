@@ -739,8 +739,12 @@ body::-webkit-scrollbar-thumb:hover {
     transition: all ease 0.3s;
 }
 .cmn-btn img{
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+	/*
+	margin-bottom: 4px;
     margin-left: 4px;
+	*/
 }
 .cmn-btn-alt {
     background: #4E01CE;
@@ -770,7 +774,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* header area */
 .header-section {
-    position: absolute;
+    /* position: absolute;*/ /*sobrepone el home banner dando un look diferente*/
     top: 0;
     left: 0;
     width: 100%;
@@ -811,7 +815,7 @@ body::-webkit-scrollbar-thumb:hover {
     content: '';
     background-image: url(../images/down-arrow.png);
     background-repeat: no-repeat;
-    height: 7px;
+    height: 9px;
     width: 15px;
     right: 15px;
     transition: all ease 0.3s;
@@ -1006,9 +1010,8 @@ input[type="checkbox"]:checked + label{
 
 /* banner-section */
 .banner-section {
-    position: relative;
 	background-color: #197852;
-	/*
+    /*position: relative;
 	padding-top: 167px;
 	margin-bottom: 69px;
 	background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
@@ -1035,13 +1038,20 @@ input[type="checkbox"]:checked + label{
     margin-bottom: 20px;
 }
 .banner-section .banner-content{
-background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
+	/*height: 480px;*/
+    background-position: center;
+    background-size: auto 100%;
+    background-color: #000;
+    background: url("../images/slider/bg-slider.png");
+    /*
+	background: radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background: -moz-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background: -webkit-radial-gradient(circle, rgba(31,132,91, 0)25%, rgba(14,62,42,100)),url("../images/dots.png");
 	background-size: contain;
 	background-blend-mode: color;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);	
 	padding-top: 118px;
+	*/
 }
 
 

@@ -8,6 +8,7 @@
 	--body-bg-light: rgba(31,132,91, 1);
 	--font-color-txt: rgba(220,230,255, 1);	
 	--font-color-orange: rgba(245,64,17, 1);
+	--font-color-orange-light: rgba(254,134,78, 1);
 }
 
 /* FORMAT */ 
@@ -16,11 +17,15 @@
 .bg-green-3{ background-color:#003c24; /*background-color:#082d1e*/}
 .green{color: #00FEDF;}
 .yellow{color: #ffe100;}
+.orange{color: var(--font-color-orange);}
+.purple-light{color: var(--font-color-txt);}
+.orange-light{color: var(--font-color-orange-light);}
 .font-color-1{color: #197852;} 
 .font-color-2{color: #0e3e2a;} 
 .font-color-3{color: #ddfff5;}
 .font-color-4{color: var(--font-color-txt);}
-.font-color-5{color: var(--font-color-orange);}
+.fsize-10{font-size: 10px!important}
+
 
 .br-radius{border-radius: 10px}
 .br-line-green-3{border:1px solid #5faf63;}
@@ -89,15 +94,18 @@
 .smb{margin-bottom: 0px}
 .member-110x110 .img-area {background: #03D6F9; width: 110px;height: 110px; border-radius: 50%; margin: 0 auto;overflow: hidden;}
 .main-nav-link:hover {cursor: pointer;}
-.cmn-btn { color: #73e779;border: 1px solid #5faf63; background: none; box-shadow: 0px 2px 0px rgb(20 91 63);}
+.cmn-btn { color: #73e779;border: 1px solid #5faf63; background: none; box-shadow: 0px 2px 0px rgb(20 91 63); }
 .cmn-btn:hover { background: #74e779; box-shadow: 0px 4px 0px #0e3e2a; transition: all ease 0.3s; color: #0e3e2a;}
+.simple-font {font-size: 14px; font-weight: 400!important; }
+.padding-btn-main{padding:  6px 20px!important;}
+
 
 .txt-margin > p{margin: 10px 10px}
 /*======================END=====================*/
 
 
 /* BUTTONS */
-.btn-help{ padding:8px 11px;}
+.btn-help{ padding:5px 8px;}
 .btn-help .iconHelph{top: 2px; position: relative;}
 /*Color change svg: https://codepen.io/sosuke/pen/Pjoqqp*/
 .cmn-btn:hover .iconHelph{filter: invert(18%) sepia(13%) saturate(2469%) hue-rotate(104deg) brightness(88%) contrast(91%);}
@@ -128,6 +136,11 @@ transition: all ease 0.3s;}
 .iconsWalletProfile{ filter: invert(32%) sepia(97%) saturate(392%) hue-rotate(105deg) brightness(96%) contrast(91%);}
 .iconsWalletProfile:hover{filter: invert(83%) sepia(31%) saturate(7108%) hue-rotate(325deg) brightness(100%) contrast(101%);}
 .bg-table{background: linear-gradient(0deg, #b8eed1 0%, rgba(237,255,252,1) 80%); border: 1px solid #afb3b2;}
+
+/* Cambia apariencia Header*/
+.navbar-collapse .main-menu li a{padding: 22px 25px;}
+.header-section .navbar .navbar-nav .dropdown a, .header-section .right-area span, .header-section .navbar .navbar-nav li a{font-weight: 400; font-size: 14px;}
+/* END- Cambia apariencia Header*/
 
 .header-section .navbar .navbar-nav li a.active, .header-section .navbar .navbar-nav li a:hover {color: #ffd400;}
 .header-section .navbar .navbar-nav .menu_has_children:hover::after {background-image: url(../images/down-arrow-hover.png);}
@@ -188,6 +201,8 @@ transition: all ease 0.3s;}
 .greenDark-svg{filter:invert(17%) sepia(18%) saturate(1856%) hue-rotate(102deg) brightness(92%) contrast(90%);}
 .greenDark-svg:hover{filter: invert(91%) sepia(22%) saturate(5019%) hue-rotate(358deg) brightness(101%) contrast(102%);}
 .box-winner-prize{position: relative;bottom: 24px;background: #4E01CE; border-radius: 20px; margin: 0 auto;; width: 170px; padding: 6px 0;}
+.text-longshadow {font-size: 4.5em; font-weight: 900; text-align: center; color: #fff; text-shadow: 1px 1px 17px rgb(25 25 203 / 10%), 1px 1px rgb(7 50 36 / 46%);
+}
 /*======================END=====================*/
 
 
@@ -315,7 +330,10 @@ label.toggle {
 
 
 /*========BG Internal page=====*/
-.header-section { background: linear-gradient(0deg, rgba(63,250,251,0) 9%, rgb(7 48 38) 150%);}
+.header-section { 
+background: #073322; border-bottom: 2px solid #eaeaea;
+/*background: linear-gradient(0deg, rgba(63,250,251,0) 9%, rgb(7 48 38) 150%);*/	
+}
 .banner-section.internal-bg-1 { background-color:#8342c1;}
 .banner-section .banner-content.internal-bg-2 {
 /*background: radial-gradient(circle, rgba(31,132,91, 0)90%, rgb(12 31 28)99%),url(../images/dots.png);
@@ -323,13 +341,18 @@ background: -webkit-radial-gradient(circle, rgba(31,132,91, 0)90%, rgb(12 31 28)
 background: radial-gradient(circle, rgba(31,132,91, 0)50%, rgb(143 29 159)110%),url(../images/dots.png);
 background-size: contain; background-blend-mode: color; /*Opc Nubes*/
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f845b",endColorstr="#0e3e2a",GradientType=1);}
+.banner-section.internal-bg-1.games .banner-side.right { position: absolute;  right: 79px; top: 285px; z-index: 6;}
+.banner-section.internal-bg-1.games .banner-side.left { position: absolute; left: 4px;  top: 110px; width: 22%;z-index: 6;}
+
+/*
 .banner-section.internal-bg-1.games .banner-side.right { position: absolute;  right: 79px; bottom: -47px; z-index: 6;}
 .banner-section.internal-bg-1.games .banner-side.left { position: absolute; left: 4px;  bottom: -52px; width: 22%;z-index: 6;}
+*/
 .available-game-section.main-3 .overlay .menu-area.internal-bg-wallet{/*background: #0c221f;background: linear-gradient(0deg, rgb(35 111 78)-13%, rgb(12 31 28) 96%); padding-top: 140px;*/}
 .banner-section .banner-content .text-area {text-align: center}
 .banner-section .banner-content .text-area .img-title {width: 40%}
-.banner-section.inner-banner .breadcrumb-area.smb ol {margin-bottom: 0px}
-.banner-section.inner-banner .breadcrumb-area.font-color-2 ol li, .banner-section.inner-banner .breadcrumb-area ol li a { color: #073321;}
+.banner-section.inner-banner .breadcrumb-area.smb ol {margin-bottom: 0px;justify-content: center;}
+.banner-section.inner-banner .breadcrumb-area.font-color-2 ol li, .banner-section.inner-banner .breadcrumb-area ol li a { color: #073321; text-shadow:-1px 1px 7px rgb(85 85 86 / 27%), 0px 1px rgb(255 255 255 / 94%); font-size: 18px;}
 
 
 /*======BANNER SECCION HOME======*/
@@ -1200,14 +1223,14 @@ display: inline-block;
 @media (max-width: 1199px){ /* Desktop */
 .experience-years {right: 12%; position: absolute; top: 21%;}
 .available-game-section.index-2 .tab-content .details-wrapper .right-content .price-box .single-play { margin-bottom: 30px;}	
-.banner-section .banner-content {padding-top: 65px;} 
+.banner-section .banner-content {/*padding-top: 65px;*/background-size: auto 100%; background-color: #000;} 
 .banner-section .banner-content .ani-illu img.left-1 {width: 38%;left: -143px;bottom: 24px;}
 .banner-section .banner-content .ani-illu .right-2 {right: -13%; bottom: 40px; width: 34%;}
 }
 	
 @media (min-width: 991px){	 /* Tablet */	
 /* .banner-section {padding-top: 147px;} */
-.banner-section .banner-content {padding-top: 147px;}
+.banner-section .banner-content {/*padding-top: 147px;background-size: auto 100%;*/ background-size: 100% 100%; background-color: #000;}
 .banner-section .banner-content .ani-illu .right-2{ right: -21%; bottom: 37px; width: 42%;}	
 .banner-section .banner-content .bottom-area img{width: 80%}
 .banner-section .main-content .box-content-1 #title-bonus{margin-bottom: 8px}
@@ -1216,6 +1239,7 @@ display: inline-block;
 }
  
 @media (max-width: 991px){	 /* Tablet */
+.text-longshadow {font-size: 4em;line-height: 56px;}
 .header-section { background-color: #0e3e2a !important;}	
 .gamer-profile-top .gamer-profile-top-inner { justify-content: center;}
 .gamer-profile-top .gamer-profile-top-inner .g-p-t-counters {margin-top: 20px;}
@@ -1333,6 +1357,7 @@ left: -56px;}
 }
 
 @media (max-width: 575px){  /* Tablet */
+.text-longshadow {font-size: 3em;line-height: 42px;}
 .experience-years {right: -19%;top: 8%;}
 .experience-years img {width: 40%}
 .experience-years span { font-size: 36px;left: 21%;  top: 50%; }
@@ -1414,6 +1439,7 @@ left: -56px;}
 .col-user.col-6 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
 .bottom-item .box-counter-user .box-counter-img { width: 30%;}
 .bottom-item .box-counter-user .content {justify-content: left; width: 70%;    display: inline-block; line-height: 34px;}
+
 }
 
 @media (max-width: 460px){	/* Mobile */
@@ -1423,6 +1449,7 @@ left: -56px;}
 }
 
 @media (max-width: 380px){	/* Mobile */
+.text-longshadow {font-size: 2em;line-height: 42px;}
 .experience-years {left: 2%;top: 8%;}
 .experience-years img {width: 13%}
 .experience-years span { font-size: 30px;left: 7%;  top: 50%; }	
@@ -1460,6 +1487,7 @@ left: -56px;}
 }
 
 @media (max-width: 280px){
+.text-longshadow { font-size: 2rem;line-height: 26px;}	
 .experience-years {display: none}	
 /***New Wallet Profile***/
 .bottom-item .box-counter-user {padding: 18px 14px;}
